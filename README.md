@@ -245,25 +245,22 @@ cargo run
 
 There are various configurations you can explore in Plonky3, 
 
-| Field | Hash  |
-|-------|-------|
-| BabyBear | Rescue |
-| BabyBear | Poseidon |
-| BabyBear | Poseidon2 |
-| BabyBear | BLAKE3 |
-| BabyBear | Keccak-256 |
-| BabyBear | Monolith |
-| Mersenne31 | Rescue |
-| Mersenne31 | Poseidon |
-| Mersenne31 | Poseidon2 |
-| Mersenne31 | BLAKE3 |
-| Mersenne31 | Keccak-256 |
-| Mersenne31 | Monolith |
-| Goldilocks | Rescue |
-| Goldilocks | Poseidon |
-| Goldilocks | Poseidon2 |
-| Goldilocks | BLAKE3 |
-| Goldilocks | Keccak-256 |
-| Goldilocks | Monolith |
+Fields:
+- Goldilocks
+- BabyBear
+- KoalaBear
+- Mersenne31
+- BN254
+
+Hashes:
+- Poseidon
+- Poseidon2
+- Rescue
+- Monolith
+- Keccak
+- Blake3
+- SHA-2
+
+### Advanced Examples
 
 If you want to check out the implementation of each combination, checkout the example [keccak-air](https://github.com/Plonky3/Plonky3/tree/main/keccak-air). This is an example implementation of Keccak (SHA-3) using the Plonky3 framework.
