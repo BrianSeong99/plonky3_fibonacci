@@ -4,13 +4,15 @@ This repo implements a Fibonacci sequence generator and prover using the Plonky3
 
 ## What is Plonky3 and How does it work?
 
-Plonky3 is a toolkit for implementing polynomial IOPs (PIOPs), such as PLONK and STARKs. It aims to support several polynomial commitment schemes, such as Brakedown.
+Plonky3 is a toolkit for implementing polynomial IOPs (PIOPs), such as PLONK and STARKs, allowing developers to configure a variety of to-spec implementations from a single ZK proving system. 
+
+Polygon Plonky3 supports several finite fields and hash functions. Currently, the only supported polynomial commitment scheme is FRI, but future releases will support several, including Brakedown.
 
 ### Understand Plonky3
 
-Plonky3 is a toolkit that can help you create your zk systems with ease. It is configurable to your needs with various fields, hash functions, and more to compose into your zk system. 
+Plonky3 is a toolkit for designing a custom ZK proving implementation that can then be used to power application-optimized zkVMs and zkEVMs. 
 
-Imagine in AI dev, there's pytorch, tensorflow for building AI models, this is what Plonky3 is, and its for building zkp systems. It can enable simple builds such as Fibonacci sequence prover as this repo where it only requires one AIR Scripts, to complex systems such as SP1 from Succinct labs with multiple AIR scripts for different components of zkVM and merge the proofs from those components into one proof, and more.
+In the same way an AI dev uses Pytorch and Tensorflow for building AI models, Polygon Plonky3 provides the same flexibility for building ZK proving systems. Polygon Plonky3 enables simple builds, such as the Fibonacci sequence prover in this repo that requires only one AIR Scripts, to complex systems, such as SP1 from Succinct labs with multiple AIR scripts for different components of a single zkVM. 
 
 ### How does Plonky3 work?
 
