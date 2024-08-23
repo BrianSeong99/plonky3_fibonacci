@@ -1,5 +1,16 @@
 # Fibonacci Air Implementation in Plonky3
 
+<div align="center">
+  <p align="center">
+    <a href="http://makeapullrequest.com">
+      <img alt="pull requests welcome badge" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+    </a>
+    <a href="https://twitter.com/BrianSeong99">
+      <img alt="Twitter" src="https://img.shields.io/twitter/url/https/twitter.com/BrianSeong99.svg?style=social&label=Follow%20%40BrianSeong99">
+    </a>
+  </p>
+</div>
+
 This repo implements a Fibonacci sequence generator and prover using the Plonky3 framework.
 
 ## What is Plonky3 and How does it work?
