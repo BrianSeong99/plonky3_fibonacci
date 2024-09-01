@@ -145,6 +145,19 @@ pub fn generate_fibonacci_trace<F: Field>(num_steps: usize) -> RowMajorMatrix<F>
 }
 ```
 
+If you are curious how the execution trace looks like, here's the execution trace of running 8 steps of Fibonacci program.
+
+| col 0 | col 1 |
+| ------ | ------ |
+| 0 | 1 |
+| 1 | 1 |
+| 1 | 2 |
+| 2 | 3 |
+| 3 | 5 |
+| 5 | 8 |
+| 8 | 13 |
+| 13 | 21 |
+
 We now have both AIR scripts and execution trace ready.
 
 ### Step Four: Choose your Field and Hash Functions
