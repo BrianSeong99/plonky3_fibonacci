@@ -15,7 +15,7 @@ This repo implements a Fibonacci sequence generator and prover using the Plonky3
 
 ## What is Plonky3 and How does it work?
 
-Plonky3 is a toolkit for implementing polynomial IOPs (PIOPs), such as PLONK and STARKs, allowing developers to configure a variety of to-spec implementations from a single ZK proving system. 
+Plonky3 is a toolkit for implementing polynomial IOPs (PIOPs), such as STARKs, allowing developers to configure a variety of to-spec implementations from a single ZK proving system. 
 
 Polygon Plonky3 supports several finite fields and hash functions. Currently, the only supported polynomial commitment scheme is FRI, but future releases will support several, including Brakedown.
 
