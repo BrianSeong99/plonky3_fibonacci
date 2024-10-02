@@ -32,8 +32,8 @@ Here's a TLDR version:
 1. Define the computation using Algebraic Intermediate Representation (AIR).
 2. Generate a trace of the computation based on the AIR.
 3. Utilize efficient finite field implementations for arithmetic operations.
-4. Apply Generalized Vector Commitment Schemes to create succinct representations of large vectors or polynomials.
-5. Use polynomial commitment schemes like Circle PCS for compact polynomial representations.
+4. Apply a vector commitment scheme (like MMCS) to create a succinct commitment to the trace.
+5. Construct polynomials from the committed trace and commit to these polynomials using a polynomial commitment scheme (like Circle PCS).
 6. Perform fast polynomial operations using FFTs and related algorithms.
 7. Implement the FRI (Fast Reed-Solomon IOP) protocol to prove properties about committed polynomials.
 8. Employ a challenger mechanism with the Fiat-Shamir heuristic for non-interactive proofs.
