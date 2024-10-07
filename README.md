@@ -51,7 +51,7 @@ So now that we briefly walked through what Plonky3 is and how does it work, let'
 
 We will walk through our fibonacci example code via blow steps
 
-![Plonky3 Steps](./pics/Plonky3%20Steps.png)
+![Plonky3 Steps](./pics/p3_fib_steps.png)
 
 <center>Steps of how to create a zk system using Plonky3</center>
 
@@ -265,7 +265,7 @@ If all of the above code works, this is the output you can expect:
 ```rust
 cargo run
 ```
-![Result](./pics/Result.png)
+![Result](./pics/p3_fib_result.png)
 
 ### More complicated Example: Plonky3 Keccak AIR Scripts
 
